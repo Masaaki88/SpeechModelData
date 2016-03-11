@@ -1,0 +1,449 @@
+<speaker>
+  <vocal_tract_model>
+    <anatomy>
+      <palate>
+        <p0 x="0.0036" z="-2.1893" teeth_height="0.5000" top_teeth_width="0.9995" bottom_teeth_width="0.9995" palate_height="1.2920" palate_angle_deg="39.5000"/>
+        <p1 x="0.7036" z="-2.0941" teeth_height="0.5000" top_teeth_width="0.9995" bottom_teeth_width="0.9995" palate_height="1.1429" palate_angle_deg="39.5000"/>
+        <p2 x="1.6036" z="-1.9038" teeth_height="0.5000" top_teeth_width="0.9519" bottom_teeth_width="0.9519" palate_height="1.4162" palate_angle_deg="60.8000"/>
+        <p3 x="2.6036" z="-1.7134" teeth_height="0.5000" top_teeth_width="0.9519" bottom_teeth_width="0.9519" palate_height="1.5902" palate_angle_deg="60.8000"/>
+        <p4 x="3.3036" z="-1.5230" teeth_height="0.6000" top_teeth_width="0.7615" bottom_teeth_width="0.7615" palate_height="1.3914" palate_angle_deg="60.8000"/>
+        <p5 x="3.9536" z="-1.3326" teeth_height="0.7000" top_teeth_width="0.6663" bottom_teeth_width="0.6663" palate_height="0.6957" palate_angle_deg="38.0000"/>
+        <p6 x="4.3536" z="-1.0471" teeth_height="0.8000" top_teeth_width="0.6187" bottom_teeth_width="0.2856" palate_height="0.1491" palate_angle_deg="23.4000"/>
+        <p7 x="4.5036" z="-0.5711" teeth_height="0.8000" top_teeth_width="0.7615" bottom_teeth_width="0.1904" palate_height="0.0000" palate_angle_deg="0.0000"/>
+        <p8 x="4.5036" z="0.0000" teeth_height="0.8000" top_teeth_width="0.8091" bottom_teeth_width="0.1904" palate_height="0.0000" palate_angle_deg="0.0000"/>
+      </palate>
+      <jaw fulcrum_x="-6.5000" fulcrum_y="2.0000" rest_pos_x="0.0000" rest_pos_y="-1.2000" tooth_root_length="0.8644">
+        <p0 x="0.1536" z="-2.1893" teeth_height="0.5000" top_teeth_width="0.9995" bottom_teeth_width="0.9995" jaw_height="1.6207" jaw_angle_deg="69.5000"/>
+        <p1 x="1.1536" z="-2.0941" teeth_height="0.5000" top_teeth_width="1.0471" bottom_teeth_width="1.0471" jaw_height="1.6207" jaw_angle_deg="69.5000"/>
+        <p2 x="2.1536" z="-1.8086" teeth_height="0.5000" top_teeth_width="0.9995" bottom_teeth_width="0.9995" jaw_height="1.6207" jaw_angle_deg="69.5000"/>
+        <p3 x="3.1536" z="-1.5230" teeth_height="0.5000" top_teeth_width="0.8567" bottom_teeth_width="0.8567" jaw_height="1.6207" jaw_angle_deg="69.5000"/>
+        <p4 x="3.8536" z="-1.3326" teeth_height="0.5000" top_teeth_width="0.7139" bottom_teeth_width="0.7139" jaw_height="1.0805" jaw_angle_deg="42.2000"/>
+        <p5 x="4.2536" z="-1.0471" teeth_height="0.5500" top_teeth_width="0.5711" bottom_teeth_width="0.6663" jaw_height="0.4322" jaw_angle_deg="35.8000"/>
+        <p6 x="4.4536" z="-0.6663" teeth_height="0.6000" top_teeth_width="0.2856" bottom_teeth_width="0.7615" jaw_height="0.1405" jaw_angle_deg="31.4000"/>
+        <p7 x="4.5036" z="-0.4759" teeth_height="0.7000" top_teeth_width="0.1904" bottom_teeth_width="0.8567" jaw_height="0.0000" jaw_angle_deg="0.0000"/>
+        <p8 x="4.5036" z="0.0000" teeth_height="0.7000" top_teeth_width="0.1904" bottom_teeth_width="0.8567" jaw_height="0.0000" jaw_angle_deg="0.0000"/>
+      </jaw>
+      <lips width="1.2749"/>
+      <tongue>
+        <tip radius="0.2102"/>
+        <body radius_x="1.8917" radius_y="1.9453"/>
+        <root automatic_calc="1" trx_slope="0.9391" trx_intercept="-5.8901" try_slope="0.8254" try_intercept="-3.0479"/>
+      </tongue>
+      <velum uvula_width="0.7565" uvula_height="0.9726" uvula_depth="0.6663" max_nasal_port_area="2.3504" >
+        <low points="-1.543 -0.7 -1.235 -0.3016 -0.8642 -0.002799 -0.3704 0.3458 0 0.545 "/>
+        <mid points="-2.161 -0.002799 -1.914 0.296 -1.42 0.4952 -0.7408 0.6944 0 0.8637 "/>
+        <high points="-2.161 0.4952 -1.852 0.9434 -1.358 1.192 -0.7408 1.242 0 1.292 "/>
+      </velum>
+      <pharynx fulcrum_x="-2.9285" fulcrum_y="1.2063" rotation_angle_deg="-94.3753" top_rib_y="-1.4000" upper_depth="3.6172" lower_depth="3.2364" back_side_width="1.5000"/>
+      <larynx upper_depth="0.9519" lower_depth="0.9519" epiglottis_width="0.5404" epiglottis_height="1.7291" epiglottis_depth="1.3326" epiglottis_angle_deg="100.0000">
+        <narrow points="1.597 0 0.9318 -0.1876 1.672 -1.126 3.169 -3.002 1.313 -3.002 0.9762 -1.126 0 -0.938 0 0 "/>
+        <wide points="2.929 0 1.89 -0.1876 1.983 -1.126 3.169 -3.002 1.313 -3.002 1.287 -1.126 0 -0.938 0 0 "/>
+      </larynx>
+      <subglottal_cavity length="23.0000"/>
+      <nasal_cavity length="11.4000"/>
+      <param index="0"  name="HX"  min="0.000"  max="1.000"  neutral="1.000" />
+      <param index="1"  name="HY"  min="-6.623"  max="-3.921"  neutral="-5.158" />
+      <param index="2"  name="JX"  min="-0.525"  max="0.000"  neutral="0.000" />
+      <param index="3"  name="JA"  min="-7.000"  max="0.000"  neutral="-2.000" />
+      <param index="4"  name="LP"  min="-1.000"  max="1.000"  neutral="-0.070" />
+      <param index="5"  name="LD"  min="-2.161"  max="4.323"  neutral="1.027" />
+      <param index="6"  name="VS"  min="0.000"  max="1.000"  neutral="0.000" />
+      <param index="7"  name="VO"  min="-0.100"  max="1.000"  neutral="-0.100" />
+      <param index="8"  name="WC"  min="0.000"  max="1.000"  neutral="0.000" />
+      <param index="9"  name="TCX"  min="-3.704"  max="3.833"  neutral="-0.494" />
+      <param index="10"  name="TCY"  min="-3.381"  max="0.942"  neutral="-1.671" />
+      <param index="11"  name="TTX"  min="1.437"  max="5.270"  neutral="3.354" />
+      <param index="12"  name="TTY"  min="-3.381"  max="2.563"  neutral="-1.104" />
+      <param index="13"  name="TBX"  min="-3.704"  max="3.833"  neutral="1.916" />
+      <param index="14"  name="TBY"  min="-3.381"  max="5.265"  neutral="0.438" />
+      <param index="15"  name="TRX"  min="-4.938"  max="1.916"  neutral="0.000" />
+      <param index="16"  name="TRY"  min="-6.623"  max="-0.139"  neutral="-0.110" />
+      <param index="17"  name="TS1"  min="-1.333"  max="1.333"  neutral="0.000" />
+      <param index="18"  name="TS2"  min="-1.333"  max="1.333"  neutral="0.057" />
+      <param index="19"  name="TS3"  min="-1.333"  max="1.333"  neutral="0.143" />
+      <param index="20"  name="TS4"  min="-1.333"  max="1.333"  neutral="0.143" />
+      <param index="21"  name="MA1"  min="0.000"  max="0.300"  neutral="0.000" />
+      <param index="22"  name="MA2"  min="0.000"  max="0.300"  neutral="0.000" />
+      <param index="23"  name="MA3"  min="0.000"  max="0.300"  neutral="0.000" />
+    </anatomy>
+    <shapes>
+    </shapes>
+  </vocal_tract_model>
+  <glottis_models>
+    <glottis_model type="Titze" selected="1">
+      <static_params>
+        <param index="0" name="Cord rest thickness" abbr="rest_thickness" unit="m" min="0.00304761904762" max="0.00914285714286" default="0.00457142857143" value="0.00457142857143"/>
+        <param index="1" name="Cord rest length" abbr="rest_length" unit="m" min="0.00533333333333" max="0.024" default="0.016" value="0.016"/>
+        <param index="2" name="Chink length" abbr="chink_length" unit="m" min="0.001" max="0.005" default="0.002" value="0.002"/>
+      </static_params>
+      <control_params>
+        <param index="0" name="f0" abbr="f0" unit="Hz" min="40.000000" max="600.000000" default="120.000000" value="427.520000"/>
+        <param index="1" name="Subglottal pressure" abbr="pressure" unit="Pa" min="0.000000" max="2000.000000" default="800.000000" value="800.000000"/>
+        <param index="2" name="Lower displacement" abbr="x_bottom" unit="m" min="-0.000500" max="0.003000" default="0.000300" value="0.000300"/>
+        <param index="3" name="Upper displacement" abbr="x_top" unit="m" min="-0.000500" max="0.003000" default="0.000300" value="0.000300"/>
+        <param index="4" name="Extra arytenoid area" abbr="ary_area" unit="m^2" min="-0.000025" max="0.000025" default="0.000000" value="0.000000"/>
+        <param index="5" name="Phase lag" abbr="lag" unit="rad" min="0.000000" max="3.141500" default="0.880000" value="0.880000"/>
+        <param index="6" name="Aspiration strength" abbr="aspiration_strength" unit="dB" min="-35.000000" max="0.000000" default="-35.000000" value="-35.000000"/>
+      </control_params>
+      <shapes>
+        <shape name="default">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="0.000300"/>
+          <control_param index="3" value="0.000300"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.880000"/>
+          <control_param index="6" value="-35.000000"/>
+        </shape>
+        <shape name="open">
+          <control_param index="0" value="77.760630"/>
+          <control_param index="1" value="869.190299"/>
+          <control_param index="2" value="0.001002"/>
+          <control_param index="3" value="0.000998"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.880000"/>
+          <control_param index="6" value="0.000000"/>
+        </shape>
+        <shape name="modal">
+          <control_param index="0" value="104.439484"/>
+          <control_param index="1" value="999.999997"/>
+          <control_param index="2" value="0.000151"/>
+          <control_param index="3" value="0.000151"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-35.000000"/>
+        </shape>
+        <shape name="breathy">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="0.000497"/>
+          <control_param index="3" value="0.000504"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-20.790000"/>
+        </shape>
+        <shape name="pressed">
+          <control_param index="0" value="104.599174"/>
+          <control_param index="1" value="999.999998"/>
+          <control_param index="2" value="0.000004"/>
+          <control_param index="3" value="0.000000"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-35.000000"/>
+        </shape>
+        <shape name="stop">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="-0.000300"/>
+          <control_param index="3" value="-0.000300"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-35.000000"/>
+        </shape>
+        <shape name="slightly-breathy">
+          <control_param index="0" value="104.439484"/>
+          <control_param index="1" value="999.999997"/>
+          <control_param index="2" value="0.000249"/>
+          <control_param index="3" value="0.000253"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-35.000000"/>
+        </shape>
+        <shape name="fully-open">
+          <control_param index="0" value="77.760630"/>
+          <control_param index="1" value="869.190299"/>
+          <control_param index="2" value="0.001999"/>
+          <control_param index="3" value="0.001995"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.880000"/>
+          <control_param index="6" value="0.000000"/>
+        </shape>
+        <shape name="half-open">
+          <control_param index="0" value="107.356872"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.000998"/>
+          <control_param index="3" value="0.000998"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-20.790000"/>
+        </shape>
+        <shape name="slightly-pressed">
+          <control_param index="0" value="103.945487"/>
+          <control_param index="1" value="999.999829"/>
+          <control_param index="2" value="0.000053"/>
+          <control_param index="3" value="0.000053"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.885903"/>
+          <control_param index="6" value="-35.000000"/>
+        </shape>
+        <shape name="open75">
+          <control_param index="0" value="103.826174"/>
+          <control_param index="1" value="999.421139"/>
+          <control_param index="2" value="0.000746"/>
+          <control_param index="3" value="0.000746"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.880000"/>
+          <control_param index="6" value="0.000000"/>
+        </shape>
+      </shapes>
+    </glottis_model>
+    <glottis_model type="Two-mass model" selected="0">
+      <static_params>
+        <param index="0" name="Cord length" abbr="cord_length" unit="m" min="0.005000" max="0.020000" default="0.013000" value="0.013000"/>
+        <param index="1" name="L. rest thickness" abbr="lower_rest_thickness" unit="m" min="0.001000" max="0.005000" default="0.002500" value="0.002500"/>
+        <param index="2" name="U. rest thickness" abbr="upper_rest_thickness" unit="m" min="0.000100" max="0.002000" default="0.000500" value="0.000500"/>
+        <param index="3" name="L. rest mass" abbr="lower_rest_mass" unit="kg" min="0.000010" max="0.000200" default="0.000125" value="0.000125"/>
+        <param index="4" name="U. rest mass" abbr="upper_rest_mass" unit="kg" min="0.000010" max="0.000200" default="0.000025" value="0.000025"/>
+        <param index="5" name="L. damping ratio" abbr="lower_damping_ratio" unit="" min="0.000000" max="3.000000" default="0.100000" value="0.100000"/>
+        <param index="6" name="U. damping ratio" abbr="upper_damping_ratio" unit="" min="0.000000" max="3.000000" default="0.600000" value="0.600000"/>
+        <param index="7" name="L. spring k" abbr="lower_spring_k" unit="N/m" min="0.000000" max="400.000000" default="80.000000" value="80.000000"/>
+        <param index="8" name="U. spring k" abbr="upper_spring_k" unit="N/m" min="0.000000" max="400.000000" default="8.000000" value="8.000000"/>
+        <param index="9" name="L. spring eta" abbr="lower_spring_eta" unit="1/m^2" min="0.000000" max="10000000.000000" default="1000000.000000" value="1000000.000000"/>
+        <param index="10" name="U. spring eta" abbr="upper_spring_eta" unit="1/m^2" min="0.000000" max="10000000.000000" default="1000000.000000" value="1000000.000000"/>
+        <param index="11" name="L. contact spring k" abbr="lower_contact_spring_k" unit="N/m" min="0.000000" max="400.000000" default="240.000000" value="240.000000"/>
+        <param index="12" name="U. contact spring k" abbr="upper_contact_spring_k" unit="N/m" min="0.000000" max="400.000000" default="24.000000" value="24.000000"/>
+        <param index="13" name="L. contact spring eta" abbr="lower_contact_spring_eta" unit="1/m^2" min="0.000000" max="10000000.000000" default="5000000.000000" value="5000000.000000"/>
+        <param index="14" name="U. contact spring eta" abbr="upper_contact_spring_eta" unit="1/m^2" min="0.000000" max="10000000.000000" default="5000000.000000" value="5000000.000000"/>
+        <param index="15" name="Coupling spring k" abbr="coupling_spring_k" unit="N/m" min="0.000000" max="400.000000" default="25.000000" value="25.000000"/>
+        <param index="16" name="Critical width" abbr="critical_width" unit="m" min="0.000000" max="0.002000" default="0.000000" value="0.000000"/>
+        <param index="17" name="Natural F0" abbr="natural_f0" unit="Hz" min="20.000000" max="500.000000" default="158.000000" value="158.000000"/>
+        <param index="18" name="dF0/dQ" abbr="f0_div_q" unit="Hz" min="20.000000" max="500.000000" default="100.000000" value="100.000000"/>
+        <param index="19" name="Chink length" abbr="chink_length" unit="m" min="0.000000" max="0.005000" default="0.002000" value="0.002000"/>
+      </static_params>
+      <control_params>
+        <param index="0" name="f0" abbr="f0" unit="Hz" min="40.000000" max="600.000000" default="120.000000" value="120.000000"/>
+        <param index="1" name="Subglottal pressure" abbr="pressure" unit="Pa" min="0.000000" max="2000.000000" default="800.000000" value="800.000000"/>
+        <param index="2" name="Lower rest displacement" abbr="lower_rest_displacement" unit="m" min="-0.000500" max="0.003000" default="0.000100" value="0.000100"/>
+        <param index="3" name="Upper rest displacement" abbr="upper_rest_displacement" unit="m" min="-0.000500" max="0.003000" default="0.000100" value="0.000100"/>
+        <param index="4" name="Extra arytenoid area" abbr="ary_area" unit="m^2" min="-0.000025" max="0.000025" default="0.000000" value="0.000000"/>
+        <param index="5" name="Damping factor" abbr="damping_factor" unit="" min="0.300000" max="3.000000" default="1.000000" value="1.000000"/>
+      </control_params>
+      <shapes>
+        <shape name="default">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="0.000100"/>
+          <control_param index="3" value="0.000100"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="1.000000"/>
+        </shape>
+        <shape name="modal">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="0.000067"/>
+          <control_param index="3" value="0.000074"/>
+          <control_param index="4" value="-0.000025"/>
+          <control_param index="5" value="1.000000"/>
+        </shape>
+        <shape name="open">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="0.000515"/>
+          <control_param index="3" value="0.000508"/>
+          <control_param index="4" value="-0.000025"/>
+          <control_param index="5" value="1.000000"/>
+        </shape>
+        <shape name="pressed">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="-0.000146"/>
+          <control_param index="3" value="-0.000146"/>
+          <control_param index="4" value="-0.000025"/>
+          <control_param index="5" value="1.000000"/>
+        </shape>
+        <shape name="stop">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="800.000000"/>
+          <control_param index="2" value="-0.000297"/>
+          <control_param index="3" value="-0.000300"/>
+          <control_param index="4" value="-0.000025"/>
+          <control_param index="5" value="1.000000"/>
+        </shape>
+      </shapes>
+    </glottis_model>
+    <glottis_model type="Triangular glottis" selected="0">
+      <static_params>
+        <param index="0" name="Cord length" abbr="cord_length" unit="m" min="0.005000" max="0.020000" default="0.013000" value="0.013000"/>
+        <param index="1" name="L. rest thickness" abbr="lower_rest_thickness" unit="m" min="0.001000" max="0.005000" default="0.002500" value="0.002400"/>
+        <param index="2" name="U. rest thickness" abbr="upper_rest_thickness" unit="m" min="0.000100" max="0.002000" default="0.000500" value="0.000600"/>
+        <param index="3" name="L. rest mass" abbr="lower_rest_mass" unit="kg" min="0.000010" max="0.000200" default="0.000125" value="0.000120"/>
+        <param index="4" name="U. rest mass" abbr="upper_rest_mass" unit="kg" min="0.000010" max="0.000200" default="0.000025" value="0.000030"/>
+        <param index="5" name="L. damping ratio" abbr="lower_damping_ratio" unit="" min="0.000000" max="3.000000" default="0.100000" value="0.100000"/>
+        <param index="6" name="U. damping ratio" abbr="upper_damping_ratio" unit="" min="0.000000" max="3.000000" default="0.600000" value="0.600000"/>
+        <param index="7" name="L. spring k" abbr="lower_spring_k" unit="N/m" min="0.000000" max="400.000000" default="80.000000" value="80.000000"/>
+        <param index="8" name="U. spring k" abbr="upper_spring_k" unit="N/m" min="0.000000" max="400.000000" default="8.000000" value="8.000000"/>
+        <param index="9" name="L. contact spring k" abbr="lower_contact_spring_k" unit="N/m" min="0.000000" max="500.000000" default="240.000000" value="360.000000"/>
+        <param index="10" name="U. contact spring k" abbr="upper_contact_spring_k" unit="N/m" min="0.000000" max="500.000000" default="24.000000" value="24.000000"/>
+        <param index="11" name="Coupling spring k" abbr="coupling_spring_k" unit="N/m" min="0.000000" max="400.000000" default="25.000000" value="25.000000"/>
+        <param index="12" name="Inlet length" abbr="inlet_length" unit="m" min="0.000500" max="0.010000" default="0.004000" value="0.004000"/>
+        <param index="13" name="Outlet length" abbr="outlet_length" unit="m" min="0.000500" max="0.005000" default="0.001000" value="0.001000"/>
+        <param index="14" name="Natural F0" abbr="natural_f0" unit="Hz" min="20.000000" max="500.000000" default="124.600000" value="124.600000"/>
+        <param index="15" name="dF0/dQ" abbr="f0_div_q" unit="Hz" min="20.000000" max="500.000000" default="110.180000" value="110.180000"/>
+      </static_params>
+      <control_params>
+        <param index="0" name="f0" abbr="f0" unit="Hz" min="40.000000" max="600.000000" default="120.000000" value="120.000000"/>
+        <param index="1" name="Subglottal pressure" abbr="pressure" unit="Pa" min="0.000000" max="2000.000000" default="1000.000000" value="1000.000000"/>
+        <param index="2" name="Lower rest displacement" abbr="lower_rest_displacement" unit="m" min="-0.000500" max="0.003000" default="0.000100" value="0.000100"/>
+        <param index="3" name="Upper rest displacement" abbr="upper_rest_displacement" unit="m" min="-0.000500" max="0.003000" default="0.000100" value="0.000100"/>
+        <param index="4" name="Arytenoid area" abbr="ary_area" unit="m^2" min="-0.000010" max="0.000050" default="0.000000" value="0.000000"/>
+        <param index="5" name="Aspiration strength" abbr="aspiration_strength" unit="dB" min="-35.000000" max="0.000000" default="-35.000000" value="-35.000000"/>
+      </control_params>
+      <shapes>
+        <shape name="default">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.000100"/>
+          <control_param index="3" value="0.000100"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="-35.000000"/>
+        </shape>
+        <shape name="breathy">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.000347"/>
+          <control_param index="3" value="0.000351"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="-20.300000"/>
+        </shape>
+        <shape name="pressed">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="-0.000150"/>
+          <control_param index="3" value="-0.000146"/>
+          <control_param index="4" value="-0.000000"/>
+          <control_param index="5" value="-35.000000"/>
+        </shape>
+        <shape name="open">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.001026"/>
+          <control_param index="3" value="0.001026"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.000000"/>
+        </shape>
+        <shape name="stop">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="-0.000297"/>
+          <control_param index="3" value="-0.000301"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="-35.000000"/>
+        </shape>
+        <shape name="modal">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.000133"/>
+          <control_param index="3" value="0.000133"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="-35.000000"/>
+        </shape>
+        <shape name="murmur">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="-0.000150"/>
+          <control_param index="3" value="-0.000153"/>
+          <control_param index="4" value="0.000007"/>
+          <control_param index="5" value="-15.225000"/>
+        </shape>
+        <shape name="slightly-pressed">
+          <control_param index="0" value="146.806727"/>
+          <control_param index="1" value="1014.000000"/>
+          <control_param index="2" value="0.000004"/>
+          <control_param index="3" value="0.000004"/>
+          <control_param index="4" value="-0.000000"/>
+          <control_param index="5" value="-35.000000"/>
+        </shape>
+        <shape name="modal-noise">
+          <control_param index="0" value="103.831781"/>
+          <control_param index="1" value="999.978644"/>
+          <control_param index="2" value="0.000133"/>
+          <control_param index="3" value="0.000133"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="0.000000"/>
+        </shape>
+        <shape name="pressed-noise">
+          <control_param index="0" value="152.107242"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="-0.000150"/>
+          <control_param index="3" value="-0.000146"/>
+          <control_param index="4" value="-0.000000"/>
+          <control_param index="5" value="0.000000"/>
+        </shape>
+        <shape name="slightly-breathy">
+          <control_param index="0" value="121.200000"/>
+          <control_param index="1" value="999.903286"/>
+          <control_param index="2" value="0.000253"/>
+          <control_param index="3" value="0.000253"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="-25.025000"/>
+        </shape>
+      </shapes>
+    </glottis_model>
+    <glottis_model type="Four-mass model" selected="0">
+      <static_params>
+        <param index="0" name="Cord length" abbr="cord_length" unit="m" min="0.005000" max="0.020000" default="0.013000" value="0.013000"/>
+        <param index="1" name="L. rest thickness" abbr="lower_rest_thickness" unit="m" min="0.001000" max="0.005000" default="0.002500" value="0.002400"/>
+        <param index="2" name="U. rest thickness" abbr="upper_rest_thickness" unit="m" min="0.000100" max="0.002000" default="0.000500" value="0.000600"/>
+        <param index="3" name="Rest mass 1" abbr="rest_mass_1" unit="kg" min="0.000010" max="0.000200" default="0.000125" value="0.000120"/>
+        <param index="4" name="Rest mass 2" abbr="rest_mass_2" unit="kg" min="0.000010" max="0.000200" default="0.000025" value="0.000030"/>
+        <param index="5" name="Rest mass 3" abbr="rest_mass_3" unit="kg" min="0.000010" max="0.000200" default="0.000125" value="0.000120"/>
+        <param index="6" name="Rest mass 4" abbr="rest_mass_4" unit="kg" min="0.000010" max="0.000200" default="0.000025" value="0.000030"/>
+        <param index="7" name="Damping ratio 1" abbr="damping_ratio_1" unit="" min="0.000000" max="3.000000" default="0.100000" value="0.100000"/>
+        <param index="8" name="Damping ratio 2" abbr="damping_ratio_2" unit="" min="0.000000" max="3.000000" default="0.600000" value="0.600000"/>
+        <param index="9" name="Damping ratio 3" abbr="damping_ratio_3" unit="" min="0.000000" max="3.000000" default="0.100000" value="0.100000"/>
+        <param index="10" name="Damping ratio 4" abbr="damping_ratio_4" unit="" min="0.000000" max="3.000000" default="0.600000" value="0.600000"/>
+        <param index="11" name="Spring constant 1" abbr="spring_constant_1" unit="N/m" min="0.000000" max="400.000000" default="80.000000" value="80.000000"/>
+        <param index="12" name="Spring constant 2" abbr="spring_constant_2" unit="N/m" min="0.000000" max="400.000000" default="8.000000" value="8.000000"/>
+        <param index="13" name="Spring constant 3" abbr="spring_constant_3" unit="N/m" min="0.000000" max="400.000000" default="80.000000" value="80.000000"/>
+        <param index="14" name="Spring constant 4" abbr="spring_constant_4" unit="N/m" min="0.000000" max="400.000000" default="8.000000" value="8.000000"/>
+        <param index="15" name="L. contact spring k" abbr="lower_contact_spring_k" unit="N/m" min="0.000000" max="400.000000" default="240.000000" value="360.000000"/>
+        <param index="16" name="U. contact spring k" abbr="upper_contact_spring_k" unit="N/m" min="0.000000" max="400.000000" default="24.000000" value="24.000000"/>
+        <param index="17" name="Right coupling spring k" abbr="right_coupling_spring_k" unit="N/m" min="0.000000" max="400.000000" default="25.000000" value="25.000000"/>
+        <param index="18" name="Left coupling spring k" abbr="left_coupling_spring_k" unit="N/m" min="0.000000" max="400.000000" default="25.000000" value="25.000000"/>
+        <param index="19" name="Inlet length" abbr="inlet_length" unit="m" min="0.000500" max="0.010000" default="0.004000" value="0.004000"/>
+        <param index="20" name="Outlet length" abbr="outlet_length" unit="m" min="0.000500" max="0.005000" default="0.001000" value="0.001000"/>
+        <param index="21" name="Natural F0" abbr="natural_f0" unit="Hz" min="20.000000" max="500.000000" default="158.000000" value="124.562091"/>
+        <param index="22" name="dF0/dP" abbr="f0_div_p" unit="Hz/Pa" min="-0.100000" max="0.100000" default="0.000000" value="-0.016374"/>
+        <param index="23" name="dF0/dQ" abbr="f0_div_q" unit="Hz" min="20.000000" max="500.000000" default="100.000000" value="110.180427"/>
+      </static_params>
+      <control_params>
+        <param index="0" name="f0" abbr="f0" unit="Hz" min="40.000000" max="600.000000" default="120.000000" value="120.000000"/>
+        <param index="1" name="Subglottal pressure" abbr="pressure" unit="Pa" min="0.000000" max="2000.000000" default="1000.000000" value="1000.000000"/>
+        <param index="2" name="Lower rest displacement" abbr="lower_rest_displacement" unit="m" min="-0.000500" max="0.003000" default="0.000100" value="0.000100"/>
+        <param index="3" name="Upper rest displacement" abbr="upper_rest_displacement" unit="m" min="-0.000500" max="0.003000" default="0.000100" value="0.000100"/>
+        <param index="4" name="Arytenoid area" abbr="ary_area" unit="m^2" min="-0.000010" max="0.000050" default="0.000000" value="0.000000"/>
+        <param index="5" name="Degree of symmetry" abbr="symmetry_degree" unit="" min="0.000000" max="1.000000" default="1.000000" value="1.000000"/>
+        <param index="6" name="Damping factor" abbr="damping_factor" unit="" min="0.300000" max="3.000000" default="1.000000" value="1.000000"/>
+      </control_params>
+      <shapes>
+        <shape name="default">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.000100"/>
+          <control_param index="3" value="0.000100"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="1.000000"/>
+          <control_param index="6" value="1.000000"/>
+        </shape>
+        <shape name="modal">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.000133"/>
+          <control_param index="3" value="0.000133"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="1.000000"/>
+          <control_param index="6" value="1.000000"/>
+        </shape>
+        <shape name="open">
+          <control_param index="0" value="120.000000"/>
+          <control_param index="1" value="1000.000000"/>
+          <control_param index="2" value="0.001002"/>
+          <control_param index="3" value="0.000998"/>
+          <control_param index="4" value="0.000000"/>
+          <control_param index="5" value="1.000000"/>
+          <control_param index="6" value="1.000000"/>
+        </shape>
+      </shapes>
+    </glottis_model>
+  </glottis_models>
+</speaker>
