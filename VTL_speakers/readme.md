@@ -1,4 +1,4 @@
-Speaker Group "srangefm" (speaker-group-female,male)
+Speaker Group "srangefm" (speaker-group-female,male) by Philip Zurbuchen
 -----------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------
 A range of speakers (male and female) between 0 years and 20.
