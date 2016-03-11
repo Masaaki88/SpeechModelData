@@ -1,7 +1,6 @@
 #Speaker Group "srangefm" (speaker-group-female,male)
 by Philip Zurbuchen
 
-
 A range of speakers (male and female) between 0 years and 20.
 
 In "srangefm_speakers/FileAge.txt" the speakerfiles are given their corresponding age in yrs and months. Format: "File" "Yrs" "Months" "Sex" \n
